@@ -1,7 +1,6 @@
 {
-    "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
+	"java.project.sourcePaths": ["src"],
+	"java.project.outputPath": "bin",
+	"java.project.referencedLibraries": ["lib/**/*.jar"],
+	"java.jdt.ls.vmargs": "-noverify -Xmx2G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/hitenpratap99/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\""
 }
